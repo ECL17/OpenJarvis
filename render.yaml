@@ -39,8 +39,6 @@ services:
       # key for every supported cloud provider.
       - key: GOOGLE_API_KEY
   sync: false
-        sync: false
-
       # The free service filesystem is ephemeral. OpenJarvis state under this
       # directory is lost on every restart, spin-down, or deploy. See
       # docs/deployment/render.md before storing credentials or durable state.
