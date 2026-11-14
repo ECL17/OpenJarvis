@@ -1,8 +1,7 @@
 # Render Blueprint for the OpenJarvis FastAPI server.
 # Deploys src/openjarvis/server/app.py via deploy/docker/Dockerfile.
 # Apply at: https://dashboard.render.com/blueprint/new?repo=https://github.com/open-jarvis/OpenJarvis
-services:
-  - type: web
+services:  - type: web
     name: openjarvis-server
     runtime: docker
     plan: free
